@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>DOM Manipulation</title>
+</head>
+
+<body>
+    <p id="message">This is a simple message.</p>
+    <button onclick="changeMessage()">Change Message</button>
+
+    <script>
+        function changeMessage() {
+            document.getElementById("message").innerHTML = "The message has been changed!";
+        }
+    </script>
+</body>
+
+</html>
